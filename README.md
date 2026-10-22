@@ -41,6 +41,12 @@ After installation, run `npm install` and then run `npm start` which will open u
 
 You must have npm installed globally in order to use this build environment. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
 
+### Deploy on Wasmer
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=StartBootstrap%2Fstartbootstrap-sb-admin-2)
+
+Wasmer serves the prebuilt HTML, CSS, JS and `vendor` files from the repository root as a static site: the `Staticfile` in the repository root selects static hosting, and no build step runs. The button opens Wasmer's import page for this public repository, where you review the configuration and click Deploy; it does not create a copy of the repository in your GitHub account. To customize the theme, fork it (or use your own copy), rebuild with `gulp` if you change the SCSS or JS sources, then import your own repository on Wasmer.
+
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2/).
